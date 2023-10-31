@@ -9,6 +9,7 @@ clean-all:
 		-or -name '*.h' \
 		-or -name '*.ac' \
 		-or -name '*.am' \
+		-or -name 'README.md' \
 		-or -name '.' \
 		-or -name '..' \
 		\) | xargs rm -rf
